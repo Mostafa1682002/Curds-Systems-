@@ -2,8 +2,6 @@ let submit=document.getElementById('submit'),
     form=document.getElementById('form-list'),
     head=document.querySelector('.head'),
     edits=document.querySelectorAll('.fa-edit'),
-    serach_input=document.getElementById('search'),
-    btn_search=document.getElementById('ser');
     pName=document.getElementById("name"),
     price=document.getElementById('price'),
     discount=document.getElementById('discount'),
@@ -138,9 +136,6 @@ function SearchProducts(serach_input){
             showData(newDate);
         }
     });
-}
-btn_search.onclick=(e)=>{
-    e.preventDefault();
 }
 
 
