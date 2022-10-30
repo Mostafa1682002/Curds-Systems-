@@ -3,7 +3,7 @@ header {
   background-color: #fff;
 }
 .data-content {
-  min-height: 88vh;
+  overflow-x: auto;
   border-left: 2px solid #f2f2f2;
 }
 
@@ -12,4 +12,7 @@ header {
 } */
 #deletAll.show {
   display: none !important;
+}
+table {
+  min-width: 900px;
 }

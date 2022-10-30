@@ -32,13 +32,9 @@ function getTotal(){
 
 }    
 
-
 //Create Product
-
-
 submit.onclick=(e)=>{
     e.preventDefault();
-
     if(pName.value==''||price.value==''||category.value==''){
         alert('Please Enetr valid Product')
     }else{
@@ -64,7 +60,6 @@ submit.onclick=(e)=>{
         //Show Data
         showData(dataProduct);
     }
-
 };
 
 
